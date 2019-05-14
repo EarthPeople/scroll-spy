@@ -19,7 +19,7 @@
     "scroll",
     "resize"
   ],
-  "author": "hjalle",
+  "author": "Hjalmar Hallin, Earth People",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EarthPeople/scroll-spy/issues"
