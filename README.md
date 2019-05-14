@@ -50,7 +50,6 @@ subscribe('scroll', (event) => {
 
 ## EventObject
 
-
 | key             | type     | value                |
 | ----------      | -------- | -------------------- |
 | scrollTop       | `number` | Pixels from top      |
@@ -64,6 +63,7 @@ subscribe('scroll', (event) => {
 | vh              | `number` | Viewport height in pixels |
 | vw              | `number` | Viewport width in pixels |
 | orientation     | `string` | `"landscape"` or `"portrait"` |
+
 
 _* This is to prevent false answers in browsers with elastic scroll, like Safari_
 
