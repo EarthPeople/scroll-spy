@@ -40,11 +40,11 @@ subscribe('scroll', (event) => {
 | --------------------- | --------------| -----------|
 | scroll                | `EventObject` | On document scroll |
 | scrollY               | `scrollTop, scrollDelta` | On vertical scroll |
-| scrollX               | `scrolLeft, scrollXDelta` | On horizontal scroll |
+| scrollX               | `scrollLeft, scrollXDelta` | On horizontal scroll |
 | scrollEnd             | `EventObject` | When document stops scrolling |
 | scrollReachedEnd      | `atBottom, scrollTop, scrollDirection` | When scroll reaches end of document |
 | scrollReachedTop      | `atTop, scrollTop, scrollDirection` | When scroll reaches top |
-| scrollDirectionChange | `EventObject` | When scroll direciton changes |
+| scrollDirectionChange | `EventObject` | When scroll direction changes |
 | resize                | `EventObject` | On window resize |
 | resizeEnd             | `EventObject` | When window stops resizing |
 
