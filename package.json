@@ -1,6 +1,6 @@
 {
   "name": "@earthpeople/scroll-spy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Scroll detection in the browser",
   "main": "index.js",
   "directories": {
