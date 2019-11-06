@@ -1,1 +1,1 @@
-export * from './lib/scrollSpy'
+export * from './lib/index.js'
