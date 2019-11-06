@@ -1,12 +1,13 @@
 {
   "name": "@earthpeople/scroll-spy",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Scroll detection in the browser",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "build": "babel lib -d es5",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,10 +20,20 @@
     "scroll",
     "resize"
   ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "author": "Hjalmar Hallin, Earth People",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EarthPeople/scroll-spy/issues"
   },
-  "homepage": "https://github.com/EarthPeople/scroll-spy#readme"
+  "homepage": "https://github.com/EarthPeople/scroll-spy#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
 }
